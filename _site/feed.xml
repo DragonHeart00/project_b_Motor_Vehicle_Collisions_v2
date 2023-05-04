@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions/" rel="alternate" type="text/html" /><updated>2023-05-04T17:54:56+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions/feed.xml</id><title type="html">Motor Vehicle Collisions</title><subtitle></subtitle><entry><title type="html">Motor Vehicle Collisions</title><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions/jekyll/update/2023/04/25/my-first-post.html" rel="alternate" type="text/html" title="Motor Vehicle Collisions" /><published>2023-04-25T14:58:27+02:00</published><updated>2023-04-25T14:58:27+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions/jekyll/update/2023/04/25/my-first-post</id><content type="html" xml:base="http://localhost:4000/project_b_Motor_Vehicle_Collisions/jekyll/update/2023/04/25/my-first-post.html">&lt;html&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/" rel="alternate" type="text/html" /><updated>2023-05-04T18:57:38+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml</id><title type="html">Motor Vehicle Collisions</title><subtitle></subtitle><entry><title type="html">Motor Vehicle Collisions</title><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html" rel="alternate" type="text/html" title="Motor Vehicle Collisions" /><published>2023-04-25T14:58:27+02:00</published><updated>2023-04-25T14:58:27+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post</id><content type="html" xml:base="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html">&lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;Photon by HTML5 UP&lt;/title&gt;
     &lt;meta charset=&quot;utf-8&quot; /&gt;
@@ -6,8 +6,51 @@
       name=&quot;viewport&quot;
       content=&quot;width=device-width, initial-scale=1, user-scalable=no&quot;
     /&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;/project_b_Motor_Vehicle_Collisions/assets/css/main.css&quot; /&gt;
-  &lt;/head&gt;&lt;head&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/project_b_Motor_Vehicle_Collisions_v2/assets/css/main.css&quot; /&gt;
+  &lt;/head&gt;
+  &lt;style&gt;
+    body {
+      display: flex; /* use flexbox to center the content */
+      justify-content: center; /* horizontally center the content */
+      background-color: #f2f2f2; /* set the background color to a light gray */
+    }
+
+    /* Container holding the image and the text */
+   
+    .content-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .img-responsive {
+        width: 75%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        height: auto;
+      }
+
+      .date {
+        margin-bottom: 30px;
+      }
+      @media (max-width: 767px) {
+        .content-wrapper {
+          padding: 0 10px;
+        }
+
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        iframe {
+          width: 100%;
+        }
+      }
+  &lt;/style&gt;&lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
   &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
   &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;!-- Begin Jekyll SEO tag v2.8.0 --&gt;
@@ -15,19 +58,19 @@
 &lt;meta name=&quot;generator&quot; content=&quot;Jekyll v3.9.3&quot; /&gt;
 &lt;meta property=&quot;og:title&quot; content=&quot;Motor Vehicle Collisions&quot; /&gt;
 &lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
-&lt;meta name=&quot;description&quot; content=&quot;Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. This is a time-series plot shows the number of crimes in each category over the years in San Francisco. The x-axis represents the years, and the y-axis represents the number of crimes in each category. Each category is represented by a different line color, and the legend is displayed on the plot to indicate which color represents which category. We can see that the most frequent crime categories over the decade are Larceny/Theft and Non/Criminal. Other crimes such as Assault, Vehicle Theft and Burglary are also frequent but have lower counts compared to Larceny/Theft and Non/Criminal. Interestingly, we can also see that some crime categories experienced a significant decrease over time, such as Prostitution, while other categories had an increase in crime over time, such as Drug/Narcotic. Overall, this Graph gives a clear overview of how the different crime categories have changed over the years in San Francisco. We can see from the plot that most crime categories have shown a decreasing trend over the past decade, with a few exceptions. We can also see that some categories, such as &amp;quot;Burglary&amp;quot; and &amp;quot;Motor Vehicle Theft&amp;quot;, show a seasonal trend, with higher rates. The plot also allows us to compare the trends of different categories, and we can see that some categories, such as &amp;quot;Larceny/Theft&amp;quot; and &amp;quot;Vandalism&amp;quot;, show similar trends over the years. Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806&quot; /&gt;
-&lt;meta property=&quot;og:description&quot; content=&quot;Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. This is a time-series plot shows the number of crimes in each category over the years in San Francisco. The x-axis represents the years, and the y-axis represents the number of crimes in each category. Each category is represented by a different line color, and the legend is displayed on the plot to indicate which color represents which category. We can see that the most frequent crime categories over the decade are Larceny/Theft and Non/Criminal. Other crimes such as Assault, Vehicle Theft and Burglary are also frequent but have lower counts compared to Larceny/Theft and Non/Criminal. Interestingly, we can also see that some crime categories experienced a significant decrease over time, such as Prostitution, while other categories had an increase in crime over time, such as Drug/Narcotic. Overall, this Graph gives a clear overview of how the different crime categories have changed over the years in San Francisco. We can see from the plot that most crime categories have shown a decreasing trend over the past decade, with a few exceptions. We can also see that some categories, such as &amp;quot;Burglary&amp;quot; and &amp;quot;Motor Vehicle Theft&amp;quot;, show a seasonal trend, with higher rates. The plot also allows us to compare the trends of different categories, and we can see that some categories, such as &amp;quot;Larceny/Theft&amp;quot; and &amp;quot;Vandalism&amp;quot;, show similar trends over the years. Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806&quot; /&gt;
-&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions/jekyll/update/2023/04/25/my-first-post.html&quot; /&gt;
-&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions/jekyll/update/2023/04/25/my-first-post.html&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. &amp;lt;/body&amp;gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &amp;lt;/html&amp;gt;&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. &amp;lt;/body&amp;gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &amp;lt;/html&amp;gt;&quot; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html&quot; /&gt;
 &lt;meta property=&quot;og:site_name&quot; content=&quot;Motor Vehicle Collisions&quot; /&gt;
 &lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
 &lt;meta property=&quot;article:published_time&quot; content=&quot;2023-04-25T14:58:27+02:00&quot; /&gt;
 &lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
 &lt;meta property=&quot;twitter:title&quot; content=&quot;Motor Vehicle Collisions&quot; /&gt;
 &lt;script type=&quot;application/ld+json&quot;&gt;
-{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;dateModified&quot;:&quot;2023-04-25T14:58:27+02:00&quot;,&quot;datePublished&quot;:&quot;2023-04-25T14:58:27+02:00&quot;,&quot;description&quot;:&quot;Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. This is a time-series plot shows the number of crimes in each category over the years in San Francisco. The x-axis represents the years, and the y-axis represents the number of crimes in each category. Each category is represented by a different line color, and the legend is displayed on the plot to indicate which color represents which category. We can see that the most frequent crime categories over the decade are Larceny/Theft and Non/Criminal. Other crimes such as Assault, Vehicle Theft and Burglary are also frequent but have lower counts compared to Larceny/Theft and Non/Criminal. Interestingly, we can also see that some crime categories experienced a significant decrease over time, such as Prostitution, while other categories had an increase in crime over time, such as Drug/Narcotic. Overall, this Graph gives a clear overview of how the different crime categories have changed over the years in San Francisco. We can see from the plot that most crime categories have shown a decreasing trend over the past decade, with a few exceptions. We can also see that some categories, such as &amp;quot;Burglary&amp;quot; and &amp;quot;Motor Vehicle Theft&amp;quot;, show a seasonal trend, with higher rates. The plot also allows us to compare the trends of different categories, and we can see that some categories, such as &amp;quot;Larceny/Theft&amp;quot; and &amp;quot;Vandalism&amp;quot;, show similar trends over the years. Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806&quot;,&quot;headline&quot;:&quot;Motor Vehicle Collisions&quot;,&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions/jekyll/update/2023/04/25/my-first-post.html&quot;},&quot;url&quot;:&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions/jekyll/update/2023/04/25/my-first-post.html&quot;}&lt;/script&gt;
+{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;dateModified&quot;:&quot;2023-04-25T14:58:27+02:00&quot;,&quot;datePublished&quot;:&quot;2023-04-25T14:58:27+02:00&quot;,&quot;description&quot;:&quot;Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. &amp;lt;/body&amp;gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &amp;lt;/html&amp;gt;&quot;,&quot;headline&quot;:&quot;Motor Vehicle Collisions&quot;,&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html&quot;},&quot;url&quot;:&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html&quot;}&lt;/script&gt;
 &lt;!-- End Jekyll SEO tag --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/project_b_Motor_Vehicle_Collisions/assets/main.css&quot;&gt;&lt;link type=&quot;application/atom+xml&quot; rel=&quot;alternate&quot; href=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions/feed.xml&quot; title=&quot;Motor Vehicle Collisions&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;style&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/project_b_Motor_Vehicle_Collisions_v2/assets/main.css&quot;&gt;&lt;link type=&quot;application/atom+xml&quot; rel=&quot;alternate&quot; href=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml&quot; title=&quot;Motor Vehicle Collisions&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;style&gt;
   .trigger a.page-link {
     color: rgb(250, 250, 250);
 
@@ -36,7 +79,7 @@
   &lt;/style&gt;
 &lt;header class=&quot;site-header&quot; role=&quot;banner&quot; style=&quot;background-color: #1d1d1c;&quot;&gt;
 
-  &lt;div class=&quot;wrapper&quot;&gt;&lt;a class=&quot;site-title&quot; style=&quot;color: aliceblue;&quot; rel=&quot;author&quot; href=&quot;/project_b_Motor_Vehicle_Collisions/&quot;&gt;Motor Vehicle Collisions&lt;/a&gt;&lt;nav class=&quot;site-nav&quot;&gt;
+  &lt;div class=&quot;wrapper&quot;&gt;&lt;a class=&quot;site-title&quot; style=&quot;color: aliceblue;&quot; rel=&quot;author&quot; href=&quot;/project_b_Motor_Vehicle_Collisions_v2/&quot;&gt;Motor Vehicle Collisions&lt;/a&gt;&lt;nav class=&quot;site-nav&quot;&gt;
         &lt;input type=&quot;checkbox&quot; id=&quot;nav-trigger&quot; class=&quot;nav-trigger&quot; /&gt;
         &lt;label for=&quot;nav-trigger&quot; &gt;
           &lt;span class=&quot;menu-icon&quot;&gt;
@@ -46,221 +89,72 @@
           &lt;/span&gt;
         &lt;/label&gt;
 
-        &lt;div class=&quot;trigger&quot; &gt;&lt;a class=&quot;page-link&quot; href=&quot;/project_b_Motor_Vehicle_Collisions/about/&quot;&gt;About&lt;/a&gt;&lt;/div&gt;
+        &lt;div class=&quot;trigger&quot; &gt;&lt;a class=&quot;page-link&quot; href=&quot;/project_b_Motor_Vehicle_Collisions_v2/about/&quot;&gt;About&lt;/a&gt;&lt;/div&gt;
       &lt;/nav&gt;&lt;/div&gt;
 &lt;/header&gt;
-&lt;br /&gt;
-    &lt;br /&gt;
-    &lt;div
-      style=&quot;color: black; font-weight: bold; float: left; margin-left: 24rem&quot;
-    &gt;
+&lt;div class=&quot;content-wrapper&quot;&gt;
       &lt;h1&gt;
         Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time
       &lt;/h1&gt;
-    &lt;/div&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
 
-    &lt;div style=&quot;color: black; float: left; margin-left: 24rem&quot;&gt;
-      &lt;time class=&quot;date&quot; datetime=&quot;2023-05-12&quot;
-        &gt;Updated 12:34 PM CEST, Fri May 12, 2023&lt;/time
-      &gt;
-    &lt;/div&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;div class=&quot;container&quot;&gt;
+      &lt;time class=&quot;date&quot; datetime=&quot;2023-05-12&quot;&gt;Updated 12:34 PM CEST, Fri May 12, 2023&lt;/time&gt;
+      &lt;br&gt;
       &lt;img
-        class=&quot;img&quot;
+        class=&quot;img-responsive&quot;
         src=&quot;https://ichef.bbci.co.uk/news/976/cpsprodpb/1488F/production/_96111148_mediaitem96111147.jpg&quot;
         alt=&quot;Snow&quot;
-        style=&quot;width: 60%; height: 600px&quot;
       /&gt;
-    &lt;/div&gt;
 
-    &lt;br /&gt;
+      &lt;h1&gt;Introduction&lt;/h1&gt;
 
-    &lt;div&gt;
-      &lt;h1
-        style=&quot;color: black; float: left; margin-left: 24rem; text-align: left&quot;
-      &gt;
-        Introduction
-      &lt;/h1&gt;
-    &lt;/div&gt;
-
-    &lt;div&gt;
-      &lt;p
-        style=&quot;
-          color: black;
-          float: left;
-          margin-left: 24rem;
-          text-align: left;
-          font-size: 18px;
-        &quot;
-      &gt;
+      &lt;p&gt;
         San Francisco is known for its picturesque location, culture, and
-        diverse communities. However, it has also been known for its crime
-        rates. &lt;br /&gt;
-        The San Francisco Police Department keeps detailed records of all
+        diverse communities. However, it has also been known for 
+        its crime rates. The San Francisco Police Department keeps detailed records of all
         reported crimes, including the type of crime, the date and time it
-        occurred, &lt;br /&gt;and its location. The San Francisco crime dataset
+        occurred, and its location. 
+        The San Francisco crime dataset
         contains information about incidents reported to the San Francisco
-        Police Department (SFPD) &lt;br /&gt;from 2003 to 2018. The dataset is
+        Police Department (SFPD) from 2003 to 2018. The dataset is
         publicly available and is updated on a daily basis. It includes detailed
-        information about the time, location, &lt;br /&gt;category, and description of
+        information about the time, location,category, and description of
         each incident. The dataset contains over 1.5 million incidents and is
-        used by law enforcement agencies, researchers,&lt;br /&gt;
+        used by law enforcement agencies, researchers,
         journalists, and concerned citizens to analyze crime trends and inform
         decision-making.
       &lt;/p&gt;
-    &lt;/div&gt;
 
-    &lt;div&gt;
-      &lt;p
-        style=&quot;
-          color: black;
-          float: left;
-          margin-left: 24rem;
-          text-align: left;
-          font-size: 18px;
-          margin-bottom: 50px;
-        &quot;
-      &gt;
-        San Francisco is known for its picturesque location, culture, and
-        diverse communities. However, it has also been known for its crime
-        rates. &lt;br /&gt;
-        The San Francisco Police Department keeps detailed records of all
-        reported crimes, including the type of crime, the date and time it
-        occurred, &lt;br /&gt;and its location. The San Francisco crime dataset
-        contains information about incidents reported to the San Francisco
-        Police Department (SFPD) &lt;br /&gt;from 2003 to 2018. The dataset is
-        publicly available and is updated on a daily basis. It includes detailed
-        information about the time, location, &lt;br /&gt;category, and description of
-        each incident. The dataset contains over 1.5 million incidents and is
-        used by law enforcement agencies, researchers,&lt;br /&gt;
-        journalists, and concerned citizens to analyze crime trends and inform
-        decision-making.
-      &lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;div style=&quot;float: left; margin-left: 23.5rem; margin-bottom: 50px&quot;&gt;
       &lt;img
-        class=&quot;img&quot;
+        class=&quot;img-responsive&quot;
         src=&quot;https://cdn.discordapp.com/attachments/1078993081212358718/1089668517273542686/SanFranciscoNeighborhoods.jpg&quot;
-        style=&quot;width: 100%; height: 600px&quot;
+        alt=&quot;Neighborhoods&quot;
       /&gt;
-    &lt;/div&gt;
+
 
     &lt;div&gt;
-      &lt;p
-        style=&quot;
-          color: black;
-          float: left;
-          margin-left: 24rem;
-          text-align: left;
-          font-size: 18px;
-          margin-bottom: 50px;
-        &quot;
-      &gt;
+      &lt;p &gt;
         San Francisco is known for its picturesque location, culture, and
         diverse communities. However, it has also been known for its crime
-        rates. &lt;br /&gt;
-        The San Francisco Police Department keeps detailed records of all
+        rates.  The San Francisco Police Department keeps detailed records of all
         reported crimes, including the type of crime, the date and time it
-        occurred, &lt;br /&gt;and its location. The San Francisco crime dataset
+        occurred, and its location. The San Francisco crime dataset
         contains information about incidents reported to the San Francisco
-        Police Department (SFPD) &lt;br /&gt;from 2003 to 2018. The dataset is
+        Police Department (SFPD) from 2003 to 2018. The dataset is
         publicly available and is updated on a daily basis. It includes detailed
-        information about the time, location, &lt;br /&gt;category, and description of
+        information about the time, location,category, and description of
         each incident. The dataset contains over 1.5 million incidents and is
-        used by law enforcement agencies, researchers,&lt;br /&gt;
+        used by law enforcement agencies, researchers,
         journalists, and concerned citizens to analyze crime trends and inform
         decision-making.
       &lt;/p&gt;
     &lt;/div&gt;
 
     &lt;iframe
-      src=&quot;/project_b_Motor_Vehicle_Collisions/assets/crime_categories.html&quot;
+      src=&quot;/project_b_Motor_Vehicle_Collisions_v2/assets/crime_categories.html&quot;
       float=&quot;left&quot;
       height=&quot;800px&quot;
       width=&quot;50%&quot;
     &gt;&lt;/iframe&gt;
-    &lt;table cellspacing=&quot;10&quot;&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;p class=&quot;paragraph1&quot;&gt;
-            San Francisco is known for its picturesque location, culture, and
-            diverse communities. However, it has also been known for its crime
-            rates. &lt;br /&gt;&lt;br /&gt;
-            The San Francisco Police Department keeps detailed records of all
-            reported crimes, including the type of crime, the date and time it
-            occurred, and its location.&lt;br /&gt;&lt;br /&gt;
-            The San Francisco crime dataset contains information about incidents
-            reported to the San Francisco Police Department (SFPD) from 2003 to
-            2018. The dataset is publicly available and is updated on a daily
-            basis. It includes detailed information about the time, location,
-            category, and description of each incident. The dataset contains
-            over 1.5 million incidents and is used by law enforcement agencies,
-            researchers, journalists, and concerned citizens to analyze crime
-            trends and inform decision-making.
-          &lt;/p&gt;
-        &lt;/td&gt;
-
-        &lt;td&gt;
-          &lt;img
-            class=&quot;imgg&quot;
-            src=&quot;https://cdn.discordapp.com/attachments/1078993081212358718/1089668517273542686/SanFranciscoNeighborhoods.jpg&quot;
-            style=&quot;width: 700px; height: 500px&quot;
-          /&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/table&gt;
-
-    &lt;br /&gt;
-
-    &lt;table cellspacing=&quot;10&quot;&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;p class=&quot;paragraph2&quot;&gt;
-            This is a time-series plot shows the number of crimes in each
-            category over the years in San Francisco. The x-axis represents the
-            years, and the y-axis represents the number of crimes in each
-            category. Each category is represented by a different line color,
-            and the legend is displayed on the plot to indicate which color
-            represents which category. We can see that the most frequent crime
-            categories over the decade are Larceny/Theft and Non/Criminal. Other
-            crimes such as Assault, Vehicle Theft and Burglary are also frequent
-            but have lower counts compared to Larceny/Theft and Non/Criminal.
-            Interestingly, we can also see that some crime categories
-            experienced a significant decrease over time, such as Prostitution,
-            while other categories had an increase in crime over time, such as
-            Drug/Narcotic. Overall, this Graph gives a clear overview of how the
-            different crime categories have changed over the years in San
-            Francisco.
-          &lt;/p&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/table&gt;
-
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-
-    &lt;table cellspacing=&quot;10&quot;&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;p class=&quot;paragraph2&quot;&gt;
-            We can see from the plot that most crime categories have shown a
-            decreasing trend over the past decade, with a few exceptions. &lt;br /&gt;
-            We can also see that some categories, such as &quot;Burglary&quot; and &quot;Motor
-            Vehicle Theft&quot;, show a seasonal trend, with higher rates. The plot
-            also allows us to compare the trends of different categories, and we
-            can see that some categories, such as &quot;Larceny/Theft&quot; and
-            &quot;Vandalism&quot;, show similar trends over the years.
-          &lt;/p&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/table&gt;
   &lt;/body&gt;&lt;head&gt;
   &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; /&gt;
 &lt;/head&gt;
@@ -281,4 +175,4 @@
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/footer&gt;
-&lt;/html&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location, category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. This is a time-series plot shows the number of crimes in each category over the years in San Francisco. The x-axis represents the years, and the y-axis represents the number of crimes in each category. Each category is represented by a different line color, and the legend is displayed on the plot to indicate which color represents which category. We can see that the most frequent crime categories over the decade are Larceny/Theft and Non/Criminal. Other crimes such as Assault, Vehicle Theft and Burglary are also frequent but have lower counts compared to Larceny/Theft and Non/Criminal. Interestingly, we can also see that some crime categories experienced a significant decrease over time, such as Prostitution, while other categories had an increase in crime over time, such as Drug/Narcotic. Overall, this Graph gives a clear overview of how the different crime categories have changed over the years in San Francisco. We can see from the plot that most crime categories have shown a decreasing trend over the past decade, with a few exceptions. We can also see that some categories, such as &quot;Burglary&quot; and &quot;Motor Vehicle Theft&quot;, show a seasonal trend, with higher rates. The plot also allows us to compare the trends of different categories, and we can see that some categories, such as &quot;Larceny/Theft&quot; and &quot;Vandalism&quot;, show similar trends over the years. Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806</summary></entry></feed>
+&lt;/html&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806</summary></entry></feed>
