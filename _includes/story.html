@@ -20,6 +20,7 @@
     .content-wrapper {
         max-width: 1200px;
         margin: 0 auto;
+        margin-top: 50px;
         padding: 0 20px;
       }
 
@@ -39,7 +40,7 @@
         }
 
         h1 {
-          font-size: 28px;
+          font-size: 25px;
         }
 
         p {
@@ -50,16 +51,22 @@
       }
   </style>
 
-  {%- include head.html -%}
+  
   <body>
+    {%- include head.html -%}
     {%- include header.html -%}
+
+    
     <div class="content-wrapper">
-      <h1>
-        Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time
+      <h1 style="font-size: 50px; ">
+        Unlocking Collision Insights: Enhancing <br>Traffic Safety in New York City
       </h1>
 
       <time class="date" datetime="2023-05-12">Updated 12:34 PM CEST, Fri May 12, 2023</time>
-      <br>
+       <h5>
+        3 min read
+      </h5>
+      
       <img
         class="img-responsive"
         src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1488F/production/_96111148_mediaitem96111147.jpg"
@@ -85,13 +92,7 @@
         decision-making.
       </p>
 
-      <img
-        class="img-responsive"
-        src="https://cdn.discordapp.com/attachments/1078993081212358718/1089668517273542686/SanFranciscoNeighborhoods.jpg"
-        alt="Neighborhoods"
-      />
-
-
+     
     <div>
       <p >
         San Francisco is known for its picturesque location, culture, and
@@ -109,13 +110,72 @@
         decision-making.
       </p>
     </div>
-
-    <iframe
+        <!-- 
+       <iframe
       src="{{ site.baseurl }}/assets/crime_categories.html"
       height="400px"
       width="70%"
-    ></iframe>
-  </body>
+      ></iframe>
+      -->
+      
 
-  {%- include footer.html -%}
+    <h1>
+      Outlier Analysis
+    </h1>
+    <p >
+        San Francisco is known for its picturesque location, culture, and
+        diverse communities. However, it has also been known for its crime
+        rates.  The San Francisco Police Department keeps detailed records of all
+        reported crimes, including the type of crime, the date and time it
+        occurred, and its location. The San Francisco crime dataset
+        contains information about incidents reported to the San Francisco
+        Police Department (SFPD) from 2003 to 2018. The dataset is
+        publicly available and is updated on a daily basis. It includes detailed
+        information about the time, location,category, and description of
+        each incident. The dataset contains over 1.5 million incidents and is
+        used by law enforcement agencies, researchers,
+        journalists, and concerned citizens to analyze crime trends and inform
+        decision-making.
+    </p>
+    <h1>
+      Visualizations of the dataset
+    </h1>
+    <p >
+        San Francisco is known for its picturesque location, culture, and
+        diverse communities. However, it has also been known for its crime
+        rates.  The San Francisco Police Department keeps detailed records of all
+        reported crimes, including the type of crime, the date and time it
+        occurred, and its location. The San Francisco crime dataset
+        contains information about incidents reported to the San Francisco
+        Police Department (SFPD) from 2003 to 2018. The dataset is
+        publicly available and is updated on a daily basis. It includes detailed
+        information about the time, location,category, and description of
+        each incident. The dataset contains over 1.5 million incidents and is
+        used by law enforcement agencies, researchers,
+        journalists, and concerned citizens to analyze crime trends and inform
+        decision-making.
+    </p>
+
+     <h1>
+      Conclusion
+    </h1>
+    <p >
+        San Francisco is known for its picturesque location, culture, and
+        diverse communities. However, it has also been known for its crime
+        rates.  The San Francisco Police Department keeps detailed records of all
+        reported crimes, including the type of crime, the date and time it
+        occurred, and its location. The San Francisco crime dataset
+        contains information about incidents reported to the San Francisco
+        Police Department (SFPD) from 2003 to 2018. The dataset is
+        publicly available and is updated on a daily basis. It includes detailed
+        information about the time, location,category, and description of
+        each incident. The dataset contains over 1.5 million incidents and is
+        used by law enforcement agencies, researchers,
+        journalists, and concerned citizens to analyze crime trends and inform
+        decision-making.
+    </p>
+  
+  </body>
+ {%- include footer.html -%}
+  
 </html>
