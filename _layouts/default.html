@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+    <div style="position: relative;">
+      <img class="img" src="https://s.hdnux.com/photos/01/26/21/27/22615508/4/1200x0.jpg" alt="San Francisco" style="width:100%; max-height:600px; object-fit:cover; filter: brightness(50%) contrast(120%);">
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 36px; font-weight: bold;">
+        Final Project
+      </div>
+      <div style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; font-size: 26px;">
+       We're excited to present our project, which aims to analyze and visualize motor vehicle collisions in New York City using the NYPD's Motor Vehicle Collisions dataset
+      </div>
+    </div>
+    
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

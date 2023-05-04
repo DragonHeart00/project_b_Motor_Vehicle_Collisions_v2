@@ -1,0 +1,12 @@
+body {
+  display: flex; /* use flexbox to center the content */
+  align-items: center; /* vertically center the content */
+  justify-content: center; /* horizontally center the content */
+  background-color: #f2f2f2; /* set the background color to a light gray */
+}
+
+/* Container holding the image and the text */
+.container {
+  text-align: center;
+  color: white;
+}
