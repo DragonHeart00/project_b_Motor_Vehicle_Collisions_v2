@@ -1,48 +1,57 @@
 ---
 layout: default
 ---
-<div class="home" style="border: 1px solid #ccc; padding: 20px; box-shadow: 0px 0px 10px #ccc; position: relative;">
+
+<div
+  class="home"
+  style="
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    position: relative;
+  "
+>
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%} {{ content }} {%- if site.posts.size > 0 -%}
+  <div style="display: flex; align-items: center; margin-bottom: 20px">
+    <img
+      src="https://www.thehurthotline.com/wp-content/uploads/2019/05/5ac29e6e01c721cf99499ff5_motor-vehicle-collisions-Carter-hickfromoldsite-300x200.jpg"
+      alt="Image"
+      style="max-width: 100%; height: auto; margin-right: 20px"
+    />
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+        -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+      </li>
+
+      <li>
+        <p class="rss-subscribe">
+          Our central idea is to identify high-risk areas and trends in motor
+          vehicle collisions, helping to inform policy decisions and improve
+          road safety for all users. We'll be using the NYPD's Motor Vehicle
+          Collisions dataset to explore this idea.
+        </p>
+      </li>
+
+      <li>
+        <div style="position: absolute; bottom: 20px; right: 20px">
+          <a href="{{ post.url | relative_url }}" class="read-more-button"
+            >Read More</a
+          >
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
   {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <div style="display: flex; align-items: center; margin-bottom: 20px;">
-      <img src="https://www.thehurthotline.com/wp-content/uploads/2019/05/5ac29e6e01c721cf99499ff5_motor-vehicle-collisions-Carter-hickfromoldsite-300x200.jpg" alt="Image" style="max-width: 100%; height: auto; margin-right: 20px;">
-      <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-
-        <li>
-          <p class="rss-subscribe">   
-            Our central idea is to identify high-risk areas and trends in motor vehicle collisions, helping to inform policy decisions and improve road safety for all users. We'll be using the NYPD's Motor Vehicle Collisions dataset to explore this idea.
-          </p>
-        </li>
-
-        
-        <li>
-          <div style="position: absolute; bottom: 20px; right: 20px;">
-            <a href="{{ post.url | relative_url }}" class="read-more-button">Read More</a>
-          </div>
-        </li>
-        {%- endfor -%}
-      </ul>
-    </div>
-  {%- endif -%}
-
 </div>
-
-

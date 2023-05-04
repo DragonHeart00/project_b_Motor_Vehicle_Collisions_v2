@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/" rel="alternate" type="text/html" /><updated>2023-05-04T19:01:20+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml</id><title type="html">Motor Vehicle Collisions</title><subtitle></subtitle><entry><title type="html">Motor Vehicle Collisions</title><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html" rel="alternate" type="text/html" title="Motor Vehicle Collisions" /><published>2023-04-25T14:58:27+02:00</published><updated>2023-04-25T14:58:27+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post</id><content type="html" xml:base="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html">&lt;html&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/" rel="alternate" type="text/html" /><updated>2023-05-04T19:13:35+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml</id><title type="html">Motor Vehicle Collisions</title><subtitle></subtitle><entry><title type="html">Motor Vehicle Collisions</title><link href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html" rel="alternate" type="text/html" title="Motor Vehicle Collisions" /><published>2023-04-25T14:58:27+02:00</published><updated>2023-04-25T14:58:27+02:00</updated><id>http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post</id><content type="html" xml:base="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html">&lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;Photon by HTML5 UP&lt;/title&gt;
     &lt;meta charset=&quot;utf-8&quot; /&gt;
@@ -26,8 +26,8 @@
       .img-responsive {
         width: 75%;
         margin-bottom: 30px;
-        margin-top: 30px;
-        height: auto;
+        margin-top: 10px;
+        height: 600px;
       }
 
       .date {
@@ -46,14 +46,12 @@
           font-size: 16px;
         }
 
-        iframe {
-          width: 100%;
-        }
+       
       }
   &lt;/style&gt;&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;!-- Begin Jekyll SEO tag v2.8.0 --&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;&lt;!-- Begin Jekyll SEO tag v2.8.0 --&gt;
 &lt;title&gt;Motor Vehicle Collisions&lt;/title&gt;
 &lt;meta name=&quot;generator&quot; content=&quot;Jekyll v3.9.3&quot; /&gt;
 &lt;meta property=&quot;og:title&quot; content=&quot;Motor Vehicle Collisions&quot; /&gt;
@@ -70,7 +68,8 @@
 &lt;script type=&quot;application/ld+json&quot;&gt;
 {&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;dateModified&quot;:&quot;2023-04-25T14:58:27+02:00&quot;,&quot;datePublished&quot;:&quot;2023-04-25T14:58:27+02:00&quot;,&quot;description&quot;:&quot;Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Crimes in San Francisco- Analyzing Changes in Crime Patterns over Time Updated 12:34 PM CEST, Fri May 12, 2023 Introduction San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. &amp;lt;/body&amp;gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &amp;lt;/html&amp;gt;&quot;,&quot;headline&quot;:&quot;Motor Vehicle Collisions&quot;,&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html&quot;},&quot;url&quot;:&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html&quot;}&lt;/script&gt;
 &lt;!-- End Jekyll SEO tag --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/project_b_Motor_Vehicle_Collisions_v2/assets/main.css&quot;&gt;&lt;link type=&quot;application/atom+xml&quot; rel=&quot;alternate&quot; href=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml&quot; title=&quot;Motor Vehicle Collisions&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;style&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/project_b_Motor_Vehicle_Collisions_v2/assets/main.css&quot;&gt;&lt;link type=&quot;application/atom+xml&quot; rel=&quot;alternate&quot; href=&quot;http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml&quot; title=&quot;Motor Vehicle Collisions&quot; /&gt;&lt;/head&gt;
+&lt;body&gt;&lt;style&gt;
   .trigger a.page-link {
     color: rgb(250, 250, 250);
 
@@ -151,24 +150,36 @@
 
     &lt;iframe
       src=&quot;/project_b_Motor_Vehicle_Collisions_v2/assets/crime_categories.html&quot;
-      float=&quot;left&quot;
-      height=&quot;800px&quot;
-      width=&quot;50%&quot;
+      height=&quot;400px&quot;
+      width=&quot;70%&quot;
     &gt;&lt;/iframe&gt;
   &lt;/body&gt;&lt;head&gt;
-  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot; /&gt;
+  &lt;link
+    rel=&quot;stylesheet&quot;
+    href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css&quot;
+  /&gt;
 &lt;/head&gt;
 
-&lt;footer class=&quot;site-footer h-card&quot; style=&quot;background-color: #1d1d1c;&quot;&gt;
+&lt;footer class=&quot;site-footer h-card&quot; style=&quot;background-color: #1d1d1c&quot;&gt;
   &lt;data class=&quot;u-url&quot; href=&quot;/project_b_Motor_Vehicle_Collisions/&quot;&gt;&lt;/data&gt;
   &lt;div class=&quot;wrapper&quot;&gt;
-    &lt;h2 class=&quot;footer-heading&quot; style=&quot;color: #ffffff;&quot;&gt;Motor Vehicle Collisions&lt;/h2&gt;
-    &lt;div &gt;
+    &lt;h2 class=&quot;footer-heading&quot; style=&quot;color: #ffffff&quot;&gt;
+      Motor Vehicle Collisions
+    &lt;/h2&gt;
+    &lt;div&gt;
       &lt;ul class=&quot;social-media-list&quot;&gt;
-         &lt;li&gt;
-          &lt;span class=&quot;username&quot; style=&quot;color: #ffffff;&quot;&gt;© 2023 Social data analysis and visualization 02806&lt;/span&gt;
-          &lt;a href=&quot;https://github.com/suneman/socialdata2023&quot; style=&quot;float:right;&quot;&gt;
-            &lt;i class=&quot;fab fa-github&quot; style=&quot;color: #ffffff; font-size: 24px;&quot;&gt;&lt;/i&gt;
+        &lt;li&gt;
+          &lt;span class=&quot;username&quot; style=&quot;color: #ffffff&quot;
+            &gt;© 2023 Social data analysis and visualization 02806&lt;/span
+          &gt;
+          &lt;a
+            href=&quot;https://github.com/suneman/socialdata2023&quot;
+            style=&quot;float: right&quot;
+          &gt;
+            &lt;i
+              class=&quot;fab fa-github&quot;
+              style=&quot;color: #ffffff; font-size: 24px&quot;
+            &gt;&lt;/i&gt;
           &lt;/a&gt;
         &lt;/li&gt;
       &lt;/ul&gt;
