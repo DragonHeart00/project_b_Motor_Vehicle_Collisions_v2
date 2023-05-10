@@ -15,8 +15,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1Z8+BE4NkAA1DlXWs1zq4pyxMFLJjKfPzww4RG"
+      crossorigin="anonymous"
+    />
   </head>
+
+
   <style>
     body {
       display: flex; /* use flexbox to center the content */
@@ -25,26 +32,49 @@
     }
 
     /* Container holding the image and the text */
+    
    
     .content-wrapper {
         max-width: 1200px;
         margin: 0 auto;
-        margin-top: 50px;
-        padding: 0 20px;
+        box-sizing: border-box; /* include borders in the element's box model */
+        border-right: 2px solid #ccc;
       }
 
       .img-responsive {
-        width: 100%;
-        margin-bottom: 30px;
+        width: 80%;
         margin-top: 50px;
-        height: 750px;
+        height: 600px;
       }
+
+      p {
+       width: 80%;
+       }
 
       .chart-container {
           text-align: right;
           margin-left: auto;
         }
 
+        .font-size-controls {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 80%;
+      }
+
+      .font-size-btn {
+        background-color: #030303; /* Button color */
+        color: #ffffff; /* Icon color */
+        font-size: 15px; /* Icon size */
+        border: none; /* Remove the border */
+        border-radius: 3px; /* Add some border-radius */
+        padding: 5px 10px; /* Add padding to the buttons */
+        cursor: pointer; /* Change the cursor on hover */
+      }
+      .plus-btn {
+        margin-right: 10px;
+      }
 
       .date {
         margin-bottom: 30px;
@@ -61,11 +91,19 @@
         p {
           font-size: 18px;
         }
-
-        
        
       }
   </style>
+
+
+  <script>
+      function changeFontSize(increment) {
+        const body = document.querySelector("body");
+        const currentFontSize = parseFloat(window.getComputedStyle(body).fontSize);
+        body.style.fontSize = currentFontSize + increment + "px";
+      }
+    </script>
+
 
   
   <body><head>
@@ -76,8 +114,8 @@
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Motor Vehicle Collisions" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Unlocking Collision Insights: Enhancing Traffic Safety in New York City Updated 12:34 PM CEST, Fri May 12, 2023 3 min read Introduction The Motor Vehicle Collisions data contains the details of the crash event split by 5 boroughs of NYC. In the event of crash, the police department records the information by filling out a police report (MV104-AN) in the cases where someone is killed, injured or the damage is more than 1000$ worth. We have chosen a five-year window (2018-2022) to study the components, capturing the most recent trends, and leaving out the data for 2023 as it is an ongoing year and therefore, we don’t have the complete data. Automobile accidents pose a serious threat to public health all over the world. Accidents involving motor vehicles can be attributed to a wide range of causes, such as human error, mechanical failure, poor infrastructure, and natural disasters. In 2016, road traffic injuries were responsible for an estimated 1.35 million deaths globally, as reported by the World Health Organization (WHO). In other words, on average, one person is killed every 26 seconds. Accident data analysis provides valuable information to law enforcement organizations, allowing them to better allocate resources and create more effective traffic enforcement and education initiatives. Additionally, insurance firms can more accurately price policies for motorists by studying data on auto accidents. Injuries, fatalities, and economic losses due to road traffic accidents continue to be a global public health problem despite efforts to reduce them. New obstacles occur as advances in transportation infrastructure, vehicle engineering, and population dynamics provide fresh challenges. Vehicle accidents can be caused by a wide variety of variables, and in order to reduce their occurrence, it is essential to analyze these incidents. By combining data visualization with basic statistical analysis, our team will create a foundational model that can shed light on the problem, guide efforts to reduce the number of accidents, and even be used to help prepare machine learning algorithms. Using an Exploratory Data Analysis, we are trying to identify the key factors, timings, locations, vehicle types influencing the collisions and crashes.  Visualizations of the dataset Fig.1_ Number of Crashes in NYC by City and Year (2018-2022) The number of crashes in each of the five boroughs of NYC. Brooklyn has the highest number of crashes, while Staten Island has the least. The number of crashes was higher in the years 2018 and 2019 for all boroughs and has declined in the later years. Fig.2_ Vehicle Collisions by Weekday in NYC(2018-2022) Here the number of vehicle collisions by weekdays in New York City from 2018 to 2022. It shows that collisions peak on Fridays and decrease on Sundays. This visualization helps to understand the pattern of collisions throughout the week and identify periods of increased risk. Fig.3_ Vehicle Collisions by Time of the day(2018-2022) Here is the number of vehicle collisions by the time of day. It shows that the highest number of collisions occur during the afternoon, peaking around 5 pm, while the lowest number of collisions take place around 3 am. This visualization helps to understand the pattern of collisions throughout the day and identify periods of increased risk. Fig.4_ Vehicle Collisions by Borough in NYC(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Conclusion San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. &lt;/body&gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &lt;/html&gt;" />
-<meta property="og:description" content="Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Unlocking Collision Insights: Enhancing Traffic Safety in New York City Updated 12:34 PM CEST, Fri May 12, 2023 3 min read Introduction The Motor Vehicle Collisions data contains the details of the crash event split by 5 boroughs of NYC. In the event of crash, the police department records the information by filling out a police report (MV104-AN) in the cases where someone is killed, injured or the damage is more than 1000$ worth. We have chosen a five-year window (2018-2022) to study the components, capturing the most recent trends, and leaving out the data for 2023 as it is an ongoing year and therefore, we don’t have the complete data. Automobile accidents pose a serious threat to public health all over the world. Accidents involving motor vehicles can be attributed to a wide range of causes, such as human error, mechanical failure, poor infrastructure, and natural disasters. In 2016, road traffic injuries were responsible for an estimated 1.35 million deaths globally, as reported by the World Health Organization (WHO). In other words, on average, one person is killed every 26 seconds. Accident data analysis provides valuable information to law enforcement organizations, allowing them to better allocate resources and create more effective traffic enforcement and education initiatives. Additionally, insurance firms can more accurately price policies for motorists by studying data on auto accidents. Injuries, fatalities, and economic losses due to road traffic accidents continue to be a global public health problem despite efforts to reduce them. New obstacles occur as advances in transportation infrastructure, vehicle engineering, and population dynamics provide fresh challenges. Vehicle accidents can be caused by a wide variety of variables, and in order to reduce their occurrence, it is essential to analyze these incidents. By combining data visualization with basic statistical analysis, our team will create a foundational model that can shed light on the problem, guide efforts to reduce the number of accidents, and even be used to help prepare machine learning algorithms. Using an Exploratory Data Analysis, we are trying to identify the key factors, timings, locations, vehicle types influencing the collisions and crashes.  Visualizations of the dataset Fig.1_ Number of Crashes in NYC by City and Year (2018-2022) The number of crashes in each of the five boroughs of NYC. Brooklyn has the highest number of crashes, while Staten Island has the least. The number of crashes was higher in the years 2018 and 2019 for all boroughs and has declined in the later years. Fig.2_ Vehicle Collisions by Weekday in NYC(2018-2022) Here the number of vehicle collisions by weekdays in New York City from 2018 to 2022. It shows that collisions peak on Fridays and decrease on Sundays. This visualization helps to understand the pattern of collisions throughout the week and identify periods of increased risk. Fig.3_ Vehicle Collisions by Time of the day(2018-2022) Here is the number of vehicle collisions by the time of day. It shows that the highest number of collisions occur during the afternoon, peaking around 5 pm, while the lowest number of collisions take place around 3 am. This visualization helps to understand the pattern of collisions throughout the day and identify periods of increased risk. Fig.4_ Vehicle Collisions by Borough in NYC(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Conclusion San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. &lt;/body&gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &lt;/html&gt;" />
+<meta name="description" content="Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Unlocking Collision Insights: Enhancing Traffic Safety in New York City Updated 12:34 PM CEST, Fri May 12, 2023 7 min read Unraveling Trends in Motor Vehicle Collisions: A Five-Year Study of NYC Crash Data (2018-2022) The Motor Vehicle Collisions data contains the details of the crash event split by 5 boroughs of NYC. In the event of crash, the police department records the information by filling out a police report (MV104-AN) in the cases where someone is killed, injured or the damage is more than 1000$ worth. We have chosen a five-year window (2018-2022) to study the components, capturing the most recent trends, and leaving out the data for 2023 as it is an ongoing year and therefore, we don’t have the complete data. Automobile accidents pose a serious threat to public health all over the world. Accidents involving motor vehicles can be attributed to a wide range of causes, such as human error, mechanical failure, poor infrastructure, and natural disasters. In 2016, road traffic injuries were responsible for an estimated 1.35 million deaths globally, as reported by the World Health Organization (WHO). In other words, on average, one person is killed every 26 seconds. Accident data analysis provides valuable information to law enforcement organizations, allowing them to better allocate resources and create more effective traffic enforcement and education initiatives. Additionally, insurance firms can more accurately price policies for motorists by studying data on auto accidents. Injuries, fatalities, and economic losses due to road traffic accidents continue to be a global public health problem despite efforts to reduce them. New obstacles occur as advances in transportation infrastructure, vehicle engineering, and population dynamics provide fresh challenges. Vehicle accidents can be caused by a wide variety of variables, and in order to reduce their occurrence, it is essential to analyze these incidents. By combining data visualization with basic statistical analysis, our team will create a foundational model that can shed light on the problem, guide efforts to reduce the number of accidents, and even be used to help prepare machine learning algorithms. Using an Exploratory Data Analysis, we are trying to identify the key factors, timings, locations, vehicle types influencing the collisions and crashes.  Dissecting Urban Danger: A Deep Dive into NYC&#39;s Vehicle Collision Patterns, Causes, and Impact (2018-2022) Fig.1- Number of Crashes in NYC by City and Year (2018-2022) The number of crashes in each of the five boroughs of NYC. Brooklyn has the highest number of crashes, while Staten Island has the least. The number of crashes was higher in the years 2018 and 2019 for all boroughs and has declined in the later years. Fig.2- Vehicle Collisions by Weekday in NYC(2018-2022) Here the number of vehicle collisions by weekdays in New York City from 2018 to 2022. It shows that collisions peak on Fridays and decrease on Sundays. This visualization helps to understand the pattern of collisions throughout the week and identify periods of increased risk. Fig.3_ Vehicle Collisions by Time of the day(2018-2022) Here is the number of vehicle collisions by the time of day. It shows that the highest number of collisions occur during the afternoon, peaking around 5 pm, while the lowest number of collisions take place around 3 am. This visualization helps to understand the pattern of collisions throughout the day and identify periods of increased risk. Fig.4- Vehicle Collisions by Borough in NYC(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.5- Contributing factors(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.6- Contributing factors(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.7- Injuries by Borough Fig.8- Deaths by Borough These two plots displaying the distribution of injuries and deaths resulting from vehicle collisions across different boroughs in New York City. Both plots show that Brooklyn has the highest number of injuries (33.6%) and deaths (30.8%), while Staten Island has the lowest number of injuries (4.6%) and deaths (5.0%). These visualizations provide valuable insights into the distribution of injuries and deaths resulting from vehicle collisions in different boroughs of New York City. Policymakers, city planners, and healthcare providers can use this information to develop targeted interventions and allocate resources more effectively to reduce the impact of vehicle collisions on public health and safety. Fig.9- Collision Counts by ZIP Code The choropleth map that displays motor vehicle collision counts in New York City, grouped by zip code. The color intensity represents the frequency of collisions in each area. Insights and Implications from Visual Analytics Accident rates in NYC remain relatively stable throughout the weekdays, but there is a noticeable increase on Fridays before declining again on Sundays. The most collisions in NYC occur at 5:00 PM, while the fewest happen at 3:00 AM. Collision rates start to rise gradually around 6:00 AM and peak at 8:00 AM during the morning rush hour. The highest number of collisions is observed during the late afternoon, and the rates gradually decrease as the day progresses towards the evening. Driver error is one of the major factors contributing to accidents, and our observations showed that the highest number of collisions occurred in Brooklyn. Cars, particularly sedans and hatchbacks, are the most common vehicles involved in collisions. In terms of injuries resulting from collisions, Brooklyn has the highest number (33.6%), followed by Queens (29%) and the Bronx (18.1%). This suggests that more focus should be placed on improving road safety measures in these areas. Brooklyn also has the highest number of deaths (30.8%) due to motor vehicle collisions. In contrast, Staten Island has the lowest number of deaths (5.0%). Recommendations Enhance Safety Precautions: There is a significant need to augment road safety measures in areas like Brooklyn, Queens, and the Bronx to curtail the escalating numbers of injuries and fatalities resulting from motor vehicle accidents. Driver Awareness: Drivers, particularly those driving sedans, hatchbacks, and SUVs, need to be extra vigilant about blind spots to prevent accidents. Educational campaigns highlighting safe driving practices could be beneficial. Augment Law Enforcement: It would be beneficial to increase police presence during high-risk hours to discourage rash driving and ensure stricter enforcement of traffic rules. This could play a significant role in enhancing overall road safety. Employer Collaboration: Partnership with companies to instill safe commuting habits among employees could be instrumental in reducing accidents. Encouraging flexible working hours and promoting carpooling initiatives can decrease the number of vehicles on the road during accident-prone hours, thus mitigating the risk of collisions. &lt;/body&gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &lt;/html&gt;" />
+<meta property="og:description" content="Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Unlocking Collision Insights: Enhancing Traffic Safety in New York City Updated 12:34 PM CEST, Fri May 12, 2023 7 min read Unraveling Trends in Motor Vehicle Collisions: A Five-Year Study of NYC Crash Data (2018-2022) The Motor Vehicle Collisions data contains the details of the crash event split by 5 boroughs of NYC. In the event of crash, the police department records the information by filling out a police report (MV104-AN) in the cases where someone is killed, injured or the damage is more than 1000$ worth. We have chosen a five-year window (2018-2022) to study the components, capturing the most recent trends, and leaving out the data for 2023 as it is an ongoing year and therefore, we don’t have the complete data. Automobile accidents pose a serious threat to public health all over the world. Accidents involving motor vehicles can be attributed to a wide range of causes, such as human error, mechanical failure, poor infrastructure, and natural disasters. In 2016, road traffic injuries were responsible for an estimated 1.35 million deaths globally, as reported by the World Health Organization (WHO). In other words, on average, one person is killed every 26 seconds. Accident data analysis provides valuable information to law enforcement organizations, allowing them to better allocate resources and create more effective traffic enforcement and education initiatives. Additionally, insurance firms can more accurately price policies for motorists by studying data on auto accidents. Injuries, fatalities, and economic losses due to road traffic accidents continue to be a global public health problem despite efforts to reduce them. New obstacles occur as advances in transportation infrastructure, vehicle engineering, and population dynamics provide fresh challenges. Vehicle accidents can be caused by a wide variety of variables, and in order to reduce their occurrence, it is essential to analyze these incidents. By combining data visualization with basic statistical analysis, our team will create a foundational model that can shed light on the problem, guide efforts to reduce the number of accidents, and even be used to help prepare machine learning algorithms. Using an Exploratory Data Analysis, we are trying to identify the key factors, timings, locations, vehicle types influencing the collisions and crashes.  Dissecting Urban Danger: A Deep Dive into NYC&#39;s Vehicle Collision Patterns, Causes, and Impact (2018-2022) Fig.1- Number of Crashes in NYC by City and Year (2018-2022) The number of crashes in each of the five boroughs of NYC. Brooklyn has the highest number of crashes, while Staten Island has the least. The number of crashes was higher in the years 2018 and 2019 for all boroughs and has declined in the later years. Fig.2- Vehicle Collisions by Weekday in NYC(2018-2022) Here the number of vehicle collisions by weekdays in New York City from 2018 to 2022. It shows that collisions peak on Fridays and decrease on Sundays. This visualization helps to understand the pattern of collisions throughout the week and identify periods of increased risk. Fig.3_ Vehicle Collisions by Time of the day(2018-2022) Here is the number of vehicle collisions by the time of day. It shows that the highest number of collisions occur during the afternoon, peaking around 5 pm, while the lowest number of collisions take place around 3 am. This visualization helps to understand the pattern of collisions throughout the day and identify periods of increased risk. Fig.4- Vehicle Collisions by Borough in NYC(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.5- Contributing factors(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.6- Contributing factors(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.7- Injuries by Borough Fig.8- Deaths by Borough These two plots displaying the distribution of injuries and deaths resulting from vehicle collisions across different boroughs in New York City. Both plots show that Brooklyn has the highest number of injuries (33.6%) and deaths (30.8%), while Staten Island has the lowest number of injuries (4.6%) and deaths (5.0%). These visualizations provide valuable insights into the distribution of injuries and deaths resulting from vehicle collisions in different boroughs of New York City. Policymakers, city planners, and healthcare providers can use this information to develop targeted interventions and allocate resources more effectively to reduce the impact of vehicle collisions on public health and safety. Fig.9- Collision Counts by ZIP Code The choropleth map that displays motor vehicle collision counts in New York City, grouped by zip code. The color intensity represents the frequency of collisions in each area. Insights and Implications from Visual Analytics Accident rates in NYC remain relatively stable throughout the weekdays, but there is a noticeable increase on Fridays before declining again on Sundays. The most collisions in NYC occur at 5:00 PM, while the fewest happen at 3:00 AM. Collision rates start to rise gradually around 6:00 AM and peak at 8:00 AM during the morning rush hour. The highest number of collisions is observed during the late afternoon, and the rates gradually decrease as the day progresses towards the evening. Driver error is one of the major factors contributing to accidents, and our observations showed that the highest number of collisions occurred in Brooklyn. Cars, particularly sedans and hatchbacks, are the most common vehicles involved in collisions. In terms of injuries resulting from collisions, Brooklyn has the highest number (33.6%), followed by Queens (29%) and the Bronx (18.1%). This suggests that more focus should be placed on improving road safety measures in these areas. Brooklyn also has the highest number of deaths (30.8%) due to motor vehicle collisions. In contrast, Staten Island has the lowest number of deaths (5.0%). Recommendations Enhance Safety Precautions: There is a significant need to augment road safety measures in areas like Brooklyn, Queens, and the Bronx to curtail the escalating numbers of injuries and fatalities resulting from motor vehicle accidents. Driver Awareness: Drivers, particularly those driving sedans, hatchbacks, and SUVs, need to be extra vigilant about blind spots to prevent accidents. Educational campaigns highlighting safe driving practices could be beneficial. Augment Law Enforcement: It would be beneficial to increase police presence during high-risk hours to discourage rash driving and ensure stricter enforcement of traffic rules. This could play a significant role in enhancing overall road safety. Employer Collaboration: Partnership with companies to instill safe commuting habits among employees could be instrumental in reducing accidents. Encouraging flexible working hours and promoting carpooling initiatives can decrease the number of vehicles on the road during accident-prone hours, thus mitigating the risk of collisions. &lt;/body&gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &lt;/html&gt;" />
 <link rel="canonical" href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html" />
 <meta property="og:url" content="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html" />
 <meta property="og:site_name" content="Motor Vehicle Collisions" />
@@ -86,7 +124,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Motor Vehicle Collisions" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-25T14:58:27+02:00","datePublished":"2023-04-25T14:58:27+02:00","description":"Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Unlocking Collision Insights: Enhancing Traffic Safety in New York City Updated 12:34 PM CEST, Fri May 12, 2023 3 min read Introduction The Motor Vehicle Collisions data contains the details of the crash event split by 5 boroughs of NYC. In the event of crash, the police department records the information by filling out a police report (MV104-AN) in the cases where someone is killed, injured or the damage is more than 1000$ worth. We have chosen a five-year window (2018-2022) to study the components, capturing the most recent trends, and leaving out the data for 2023 as it is an ongoing year and therefore, we don’t have the complete data. Automobile accidents pose a serious threat to public health all over the world. Accidents involving motor vehicles can be attributed to a wide range of causes, such as human error, mechanical failure, poor infrastructure, and natural disasters. In 2016, road traffic injuries were responsible for an estimated 1.35 million deaths globally, as reported by the World Health Organization (WHO). In other words, on average, one person is killed every 26 seconds. Accident data analysis provides valuable information to law enforcement organizations, allowing them to better allocate resources and create more effective traffic enforcement and education initiatives. Additionally, insurance firms can more accurately price policies for motorists by studying data on auto accidents. Injuries, fatalities, and economic losses due to road traffic accidents continue to be a global public health problem despite efforts to reduce them. New obstacles occur as advances in transportation infrastructure, vehicle engineering, and population dynamics provide fresh challenges. Vehicle accidents can be caused by a wide variety of variables, and in order to reduce their occurrence, it is essential to analyze these incidents. By combining data visualization with basic statistical analysis, our team will create a foundational model that can shed light on the problem, guide efforts to reduce the number of accidents, and even be used to help prepare machine learning algorithms. Using an Exploratory Data Analysis, we are trying to identify the key factors, timings, locations, vehicle types influencing the collisions and crashes.  Visualizations of the dataset Fig.1_ Number of Crashes in NYC by City and Year (2018-2022) The number of crashes in each of the five boroughs of NYC. Brooklyn has the highest number of crashes, while Staten Island has the least. The number of crashes was higher in the years 2018 and 2019 for all boroughs and has declined in the later years. Fig.2_ Vehicle Collisions by Weekday in NYC(2018-2022) Here the number of vehicle collisions by weekdays in New York City from 2018 to 2022. It shows that collisions peak on Fridays and decrease on Sundays. This visualization helps to understand the pattern of collisions throughout the week and identify periods of increased risk. Fig.3_ Vehicle Collisions by Time of the day(2018-2022) Here is the number of vehicle collisions by the time of day. It shows that the highest number of collisions occur during the afternoon, peaking around 5 pm, while the lowest number of collisions take place around 3 am. This visualization helps to understand the pattern of collisions throughout the day and identify periods of increased risk. Fig.4_ Vehicle Collisions by Borough in NYC(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Conclusion San Francisco is known for its picturesque location, culture, and diverse communities. However, it has also been known for its crime rates. The San Francisco Police Department keeps detailed records of all reported crimes, including the type of crime, the date and time it occurred, and its location. The San Francisco crime dataset contains information about incidents reported to the San Francisco Police Department (SFPD) from 2003 to 2018. The dataset is publicly available and is updated on a daily basis. It includes detailed information about the time, location,category, and description of each incident. The dataset contains over 1.5 million incidents and is used by law enforcement agencies, researchers, journalists, and concerned citizens to analyze crime trends and inform decision-making. &lt;/body&gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &lt;/html&gt;","headline":"Motor Vehicle Collisions","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html"},"url":"http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-25T14:58:27+02:00","datePublished":"2023-04-25T14:58:27+02:00","description":"Photon by HTML5 UP Motor Vehicle Collisions Motor Vehicle Collisions About Unlocking Collision Insights: Enhancing Traffic Safety in New York City Updated 12:34 PM CEST, Fri May 12, 2023 7 min read Unraveling Trends in Motor Vehicle Collisions: A Five-Year Study of NYC Crash Data (2018-2022) The Motor Vehicle Collisions data contains the details of the crash event split by 5 boroughs of NYC. In the event of crash, the police department records the information by filling out a police report (MV104-AN) in the cases where someone is killed, injured or the damage is more than 1000$ worth. We have chosen a five-year window (2018-2022) to study the components, capturing the most recent trends, and leaving out the data for 2023 as it is an ongoing year and therefore, we don’t have the complete data. Automobile accidents pose a serious threat to public health all over the world. Accidents involving motor vehicles can be attributed to a wide range of causes, such as human error, mechanical failure, poor infrastructure, and natural disasters. In 2016, road traffic injuries were responsible for an estimated 1.35 million deaths globally, as reported by the World Health Organization (WHO). In other words, on average, one person is killed every 26 seconds. Accident data analysis provides valuable information to law enforcement organizations, allowing them to better allocate resources and create more effective traffic enforcement and education initiatives. Additionally, insurance firms can more accurately price policies for motorists by studying data on auto accidents. Injuries, fatalities, and economic losses due to road traffic accidents continue to be a global public health problem despite efforts to reduce them. New obstacles occur as advances in transportation infrastructure, vehicle engineering, and population dynamics provide fresh challenges. Vehicle accidents can be caused by a wide variety of variables, and in order to reduce their occurrence, it is essential to analyze these incidents. By combining data visualization with basic statistical analysis, our team will create a foundational model that can shed light on the problem, guide efforts to reduce the number of accidents, and even be used to help prepare machine learning algorithms. Using an Exploratory Data Analysis, we are trying to identify the key factors, timings, locations, vehicle types influencing the collisions and crashes.  Dissecting Urban Danger: A Deep Dive into NYC&#39;s Vehicle Collision Patterns, Causes, and Impact (2018-2022) Fig.1- Number of Crashes in NYC by City and Year (2018-2022) The number of crashes in each of the five boroughs of NYC. Brooklyn has the highest number of crashes, while Staten Island has the least. The number of crashes was higher in the years 2018 and 2019 for all boroughs and has declined in the later years. Fig.2- Vehicle Collisions by Weekday in NYC(2018-2022) Here the number of vehicle collisions by weekdays in New York City from 2018 to 2022. It shows that collisions peak on Fridays and decrease on Sundays. This visualization helps to understand the pattern of collisions throughout the week and identify periods of increased risk. Fig.3_ Vehicle Collisions by Time of the day(2018-2022) Here is the number of vehicle collisions by the time of day. It shows that the highest number of collisions occur during the afternoon, peaking around 5 pm, while the lowest number of collisions take place around 3 am. This visualization helps to understand the pattern of collisions throughout the day and identify periods of increased risk. Fig.4- Vehicle Collisions by Borough in NYC(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.5- Contributing factors(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.6- Contributing factors(2018-2022) Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions. This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue. Fig.7- Injuries by Borough Fig.8- Deaths by Borough These two plots displaying the distribution of injuries and deaths resulting from vehicle collisions across different boroughs in New York City. Both plots show that Brooklyn has the highest number of injuries (33.6%) and deaths (30.8%), while Staten Island has the lowest number of injuries (4.6%) and deaths (5.0%). These visualizations provide valuable insights into the distribution of injuries and deaths resulting from vehicle collisions in different boroughs of New York City. Policymakers, city planners, and healthcare providers can use this information to develop targeted interventions and allocate resources more effectively to reduce the impact of vehicle collisions on public health and safety. Fig.9- Collision Counts by ZIP Code The choropleth map that displays motor vehicle collision counts in New York City, grouped by zip code. The color intensity represents the frequency of collisions in each area. Insights and Implications from Visual Analytics Accident rates in NYC remain relatively stable throughout the weekdays, but there is a noticeable increase on Fridays before declining again on Sundays. The most collisions in NYC occur at 5:00 PM, while the fewest happen at 3:00 AM. Collision rates start to rise gradually around 6:00 AM and peak at 8:00 AM during the morning rush hour. The highest number of collisions is observed during the late afternoon, and the rates gradually decrease as the day progresses towards the evening. Driver error is one of the major factors contributing to accidents, and our observations showed that the highest number of collisions occurred in Brooklyn. Cars, particularly sedans and hatchbacks, are the most common vehicles involved in collisions. In terms of injuries resulting from collisions, Brooklyn has the highest number (33.6%), followed by Queens (29%) and the Bronx (18.1%). This suggests that more focus should be placed on improving road safety measures in these areas. Brooklyn also has the highest number of deaths (30.8%) due to motor vehicle collisions. In contrast, Staten Island has the lowest number of deaths (5.0%). Recommendations Enhance Safety Precautions: There is a significant need to augment road safety measures in areas like Brooklyn, Queens, and the Bronx to curtail the escalating numbers of injuries and fatalities resulting from motor vehicle accidents. Driver Awareness: Drivers, particularly those driving sedans, hatchbacks, and SUVs, need to be extra vigilant about blind spots to prevent accidents. Educational campaigns highlighting safe driving practices could be beneficial. Augment Law Enforcement: It would be beneficial to increase police presence during high-risk hours to discourage rash driving and ensure stricter enforcement of traffic rules. This could play a significant role in enhancing overall road safety. Employer Collaboration: Partnership with companies to instill safe commuting habits among employees could be instrumental in reducing accidents. Encouraging flexible working hours and promoting carpooling initiatives can decrease the number of vehicles on the road during accident-prone hours, thus mitigating the risk of collisions. &lt;/body&gt; Motor Vehicle Collisions © 2023 Social data analysis and visualization 02806 &lt;/html&gt;","headline":"Motor Vehicle Collisions","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html"},"url":"http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/jekyll/update/2023/04/25/my-first-post.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/project_b_Motor_Vehicle_Collisions_v2/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project_b_Motor_Vehicle_Collisions_v2/feed.xml" title="Motor Vehicle Collisions" /></head>
 <style>
@@ -117,17 +155,20 @@
       </h1>
 
       <time class="date" datetime="2023-05-12">Updated 12:34 PM CEST, Fri May 12, 2023</time>
-       <h5>
-        3 min read
-      </h5>
+      <h5 >7 min read</h5>
+        <div class="font-size-controls">
+        <button class="font-size-btn plus-btn" onclick="changeFontSize(1)"><i class="fas fa-plus"></i></button>
+        <button class="font-size-btn" onclick="changeFontSize(-1)"><i class="fas fa-minus"></i></button>
+      </div>
       
       <img
         class="img-responsive"
-        src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1488F/production/_96111148_mediaitem96111147.jpg"
+        src="https://images.drive.com.au/caradvice/image/private/c_fill,f_auto,g_auto,h_540,q_auto:good,w_960/v1/30c2b2cf9c861b80a4eeb808cafb8b0b"
         alt="Snow"
+        style="margin-bottom: 3rem;"
       />
 
-      <h1>Introduction</h1>
+      <h1 style="width: 75%;">Unraveling Trends in Motor Vehicle Collisions: A Five-Year Study of NYC Crash Data (2018-2022)</h1>
 
       <p>
        The Motor Vehicle Collisions data contains the details of the crash event split by 5 boroughs of NYC. 
@@ -157,42 +198,17 @@
 
       </p>
     </div>
-        <!-- 
-       <iframe
-      src="/project_b_Motor_Vehicle_Collisions_v2/assets/crime_categories.html"
-      height="400px"
-      width="70%"
-      ></iframe>
-      -->
-      
+          
 
     
-    <h1>
-      Visualizations of the dataset
+    <h1 style="width: 75%;">
+      Dissecting Urban Danger: A Deep Dive into NYC's Vehicle Collision Patterns, Causes, and Impact (2018-2022)
     </h1>
   
-    <!--  <iframe src="crash_city_year.html" height="600" width="100%"></iframe>
-    <div style="display: flex; flex-direction: column; align-items: center;">
-   
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-        <p>
-            The number of crashes in each of the five boroughs of NYC. 
-            Brooklyn has the highest number of crashes, while Staten Island has the least. The number of crashes was higher in the years 2018 and 2019 for all boroughs and has declined in the later years.
-        </p>
-        <div class="chart-container">
-            <iframe src="/project_b_Motor_Vehicle_Collisions_v2/assets/crash_city_year.html" height="300px" width="700px"></iframe>
-        </div>
-    </div>
 
-     <h3>
-        Number of Crashes in NYC by City and Year (2018-2022)
-    </h3>
-</div>
--->
-
-  <iframe src="/project_b_Motor_Vehicle_Collisions_v2/assets/crash_city_year.html" height="500px" width="1200px"></iframe>
+  <iframe class="img-responsive" src="/project_b_Motor_Vehicle_Collisions_v2/assets/crash_city_year.html" ></iframe>
     <h4 >
-        Fig.1_ Number of Crashes in NYC by City and Year (2018-2022)
+        Fig.1- Number of Crashes in NYC by City and Year (2018-2022)
     </h4>
 
         <p style="margin-top: 2rem;">
@@ -209,7 +225,7 @@
          style="border: 2px solid #888888;"
       />
    <h4 >
-        Fig.2_ Vehicle Collisions by Weekday in NYC(2018-2022)
+        Fig.2- Vehicle Collisions by Weekday in NYC(2018-2022)
     </h4>
 
       <p style="margin-top: 2rem;">
@@ -224,7 +240,7 @@
          style="border: 2px solid #888888;"
       />
  
-    <h4 >
+    <h4>
         Fig.3_ Vehicle Collisions by Time of the day(2018-2022)
     </h4>
 
@@ -234,15 +250,15 @@
         This visualization helps to understand the pattern of collisions throughout the day and identify periods of increased risk.
     </p>
 
-<img
+  <img
         class="img-responsive"
         src="/project_b_Motor_Vehicle_Collisions_v2/assets/vehicle_collisions_by_borough.png"
         alt="Snow"
-        style="border: 2px solid #888888; height:800px"
+        style="border: 2px solid #888888; height:700px"
       />
  
     <h4 >
-        Fig.4_ Vehicle Collisions by Borough in NYC(2018-2022)
+        Fig.4- Vehicle Collisions by Borough in NYC(2018-2022)
     </h4>
 
 
@@ -255,25 +271,118 @@
 
 
 
-     <h1>
-      Conclusion
+    <img
+        class="img-responsive"
+        src="/project_b_Motor_Vehicle_Collisions_v2/assets/contributing_factors_plot.png"
+        alt="Snow"
+        style="border: 2px solid #888888; height:800px;"
+      />
+ 
+    <h4 >
+        Fig.5- Contributing factors(2018-2022)
+    </h4>
+
+
+      <p style="margin-top: 2rem;">
+        Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions.
+        This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue.
+    </p>
+
+
+    <img
+        class="img-responsive"
+        src="/project_b_Motor_Vehicle_Collisions_v2/assets/top_10_vehicle_types_involved_in_accidents.png"
+        alt="Snow"
+        style="border: 2px solid #888888; height:800px;"
+      />
+ 
+    <h4 >
+        Fig.6- Contributing factors(2018-2022)
+    </h4>
+
+
+      <p style="margin-top: 2rem;">
+        Here is the proportion of vehicle collisions by borough in New York City. It shows that Staten Island has the lowest rate of collisions, accounting for only 4.4% of the total, while Brooklyn has the highest rate, accounting for 33.5% of the total collisions.
+        This visualization helps to understand the distribution of vehicle collisions across different boroughs in New York City and can be useful for prioritizing safety measures and resource allocation to address the issue.
+    </p>
+
+<div style="display: flex; ">
+  <div style="margin-right: 10px;">
+    <img
+      class="img-responsive"
+      src="/project_b_Motor_Vehicle_Collisions_v2/assets/deaths_by_borough.png"
+      alt="Injuries by Borough"
+      style="border: 2px solid #888888; height: 450px; width: 95%;"
+    />
+    <p style="text-align: center; margin-top: 5px;"> Fig.7- Injuries by Borough</p>
+  </div>
+
+  <div>
+    <img
+      class="img-responsive"
+      src="/project_b_Motor_Vehicle_Collisions_v2/assets/injuries_by_borough.png"
+      alt="Deaths by Borough"
+      style="border: 2px solid #888888; height: 450px; width: 95%;"
+    />
+    <p style="text-align: center; margin-top: 5px;">Fig.8- Deaths by Borough</p>
+  </div>
+</div>
+
+    <p style="margin-top: 2rem;">
+      These two plots displaying the distribution of injuries and deaths resulting from vehicle collisions across different boroughs in New York City. 
+      Both plots show that Brooklyn has the highest number of injuries (33.6%) and deaths (30.8%), while Staten Island has the lowest number of injuries (4.6%) and deaths (5.0%).
+      These visualizations provide valuable insights into the distribution of injuries and deaths resulting from vehicle collisions in different boroughs of New York City. 
+      Policymakers, city planners, and healthcare providers can use this information to develop targeted interventions 
+      and allocate resources more effectively to reduce the impact of vehicle collisions on public health and safety.
+    </p>
+
+
+<img
+        class="img-responsive"
+        src="/project_b_Motor_Vehicle_Collisions_v2/assets/map_image2.png"
+        alt="Snow"
+        style="border: 2px solid #888888; height:800px;"
+      />
+ 
+    <h4 >
+        Fig.9- Collision Counts by ZIP Code
+    </h4>
+
+
+      <p style="margin-top: 2rem;">
+      The choropleth map that displays motor vehicle collision counts in New York City, grouped by zip code. The color intensity represents the frequency of collisions in each area.
+    </p>
+    <h1>
+      Insights and Implications from Visual Analytics
     </h1>
     <p >
-        San Francisco is known for its picturesque location, culture, and
-        diverse communities. However, it has also been known for its crime
-        rates.  The San Francisco Police Department keeps detailed records of all
-        reported crimes, including the type of crime, the date and time it
-        occurred, and its location. The San Francisco crime dataset
-        contains information about incidents reported to the San Francisco
-        Police Department (SFPD) from 2003 to 2018. The dataset is
-        publicly available and is updated on a daily basis. It includes detailed
-        information about the time, location,category, and description of
-        each incident. The dataset contains over 1.5 million incidents and is
-        used by law enforcement agencies, researchers,
-        journalists, and concerned citizens to analyze crime trends and inform
-        decision-making.
+        Accident rates in NYC remain relatively stable throughout the weekdays, but there is a noticeable increase on Fridays before declining again on Sundays. The most collisions in NYC occur at 5:00 PM, while the fewest happen at 3:00 AM. Collision rates start to rise gradually around 6:00 AM and peak at 8:00 AM during the morning rush hour. The highest number of collisions is observed during the late afternoon, and the rates gradually decrease as the day progresses towards the evening.
+        Driver error is one of the major factors contributing to accidents, and our observations showed that the highest number of collisions occurred in Brooklyn.
+        Cars, particularly sedans and hatchbacks, are the most common vehicles involved in collisions.
+        In terms of injuries resulting from collisions, Brooklyn has the highest number (33.6%), followed by Queens (29%) and the Bronx (18.1%). This suggests that more focus should be placed on improving road safety measures in these areas.
+        Brooklyn also has the highest number of deaths (30.8%) due to motor vehicle collisions. In contrast, Staten Island has the lowest number of deaths (5.0%).
+
     </p>
   
+    <h1>
+      Recommendations
+    </h1>
+      <ol style="width: 75%;">
+          <li>
+            Enhance Safety Precautions: There is a significant need to augment road safety measures in areas like Brooklyn, Queens, and the Bronx to curtail the escalating numbers of injuries and fatalities resulting from motor vehicle accidents.
+          </li>
+          <li>
+            Driver Awareness: Drivers, particularly those driving sedans, hatchbacks, and SUVs, need to be extra vigilant about blind spots to prevent accidents. Educational campaigns highlighting safe driving practices could be beneficial.
+          </li>
+          <li>
+            Augment Law Enforcement: It would be beneficial to increase police presence during high-risk hours to discourage rash driving and ensure stricter enforcement of traffic rules. This could play a significant role in enhancing overall road safety.
+          </li>
+          <li>
+            Employer Collaboration: Partnership with companies to instill safe commuting habits among employees could be instrumental in reducing accidents. Encouraging flexible working hours and promoting carpooling initiatives can decrease the number of vehicles on the road during accident-prone hours, thus mitigating the risk of collisions.
+          </li>
+        </ol>
+
+     
   </body><head>
   <link
     rel="stylesheet"
